@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Tree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://github.com/guimiiller.png" alt="Imagem de Guilherme">
+            <p>@guii_miiller</p>
+        </header>
+        <main class="links-container">
+            <div class="links">
+                <a href="https://github.com/guimiiller" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/guilherme-miller-19ba82241/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/guii_miiller/" target="_blank">Instagram</a>
+                <button class="modal-active">Contato</button>
+            </div>
+            <div class="social-list">
+                <img src="icon-twitter.svg" alt="Imagem Twitter">
+                <img src="icon-twitch.svg" alt="Imagem Twitch">
+                <img src="icon-instagram.svg" alt="Imagem Instagram">
+                <img src="icon-linkedin.svg" alt="Imagem Linkedin">
+                <img src="icon-github.svg" alt="Imagem Github">
+            </div>
+        </main>
+    </div>
+
+    <div id="modal-contact" class="modal-container">
+        <div class="modal">
+            <button class="close-button">X</button>
+            <h2 class="subtitle">Entre em contato</h2>
+            <form action="https://formsubmit.co/a1e2a6aae0d3333bd4ef3e40bce8f293" method="POST">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required placeholder="Digite seu nome" autocomplete="off">
+                    <br>
+                    <br>
+                    <label for="email">Email</label> 
+                    <input type="email" name="email" id="email" required placeholder="Digite seu email">
+                    <br>
+                    <br>
+                    <label for="msg">Mensagem</label><br>
+                    <textarea name="msg" id="msg" cols="30" rows="5" required placeholder="Me mande uma mensagem"></textarea><br><br>
+                    <input type="submit" value="Enviar" class="button">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
