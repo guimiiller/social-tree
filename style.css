@@ -155,6 +155,7 @@ a:hover {
     font-size: 30px;
     margin-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 fieldset {
@@ -223,6 +224,8 @@ legend {
     border: 1px solid #00009C;
     cursor: pointer;
     border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 .close-button {
